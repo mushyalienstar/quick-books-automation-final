@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?qbxml version="13.0"?>
+<QBXML>
+    <QBXMLMsgsRq onError="stopOnError">
+        <InvoiceAddRq>
+            <InvoiceAdd>
+                <CustomerRef>
+                    <FullName>Client Name</FullName>
+                </CustomerRef>
+                <TxnDate>2023-06-12</TxnDate>
+                <RefNumber>1000-15088</RefNumber>
+                
+        <InvoiceLineAdd>
+            <ItemRef>
+                <FullName>Curtain Cleaning</FullName>
+            </ItemRef>
+            <Desc>Superior dry cleaning on-site</Desc>
+            <Quantity>3.0</Quantity>
+            <Rate>40.0</Rate>
+        </InvoiceLineAdd>
+        
+        <InvoiceLineAdd>
+            <ItemRef>
+                <FullName>Green Cleaning</FullName>
+            </ItemRef>
+            <Desc>Eco-friendly cleaning by using products that are non-toxic, biodegradable, and safe</Desc>
+            <Quantity>2.0</Quantity>
+            <Rate>50.0</Rate>
+        </InvoiceLineAdd>
+        
+        <InvoiceLineAdd>
+            <ItemRef>
+                <FullName>Pressure Washing</FullName>
+            </ItemRef>
+            <Desc>Jet washer to deliver a powerful water stream to remove dirt and clean surfaces</Desc>
+            <Quantity>1.0</Quantity>
+            <Rate>110.0</Rate>
+        </InvoiceLineAdd>
+        
+        <InvoiceLineAdd>
+            <ItemRef>
+                <FullName>Chimney Sweeping</FullName>
+            </ItemRef>
+            <Desc>Chimney sweeping to prevent soot build-up, which is a fire hazard</Desc>
+            <Quantity>1.0</Quantity>
+            <Rate>105.0</Rate>
+        </InvoiceLineAdd>
+        
+        <InvoiceLineAdd>
+            <ItemRef>
+                <FullName>Ceiling and Wall Cleaning</FullName>
+            </ItemRef>
+            <Desc>Removing dirt, oil, and other grime on walls and ceilings</Desc>
+            <Quantity>8.0</Quantity>
+            <Rate>35.0</Rate>
+        </InvoiceLineAdd>
+        
+        <InvoiceLineAdd>
+            <ItemRef>
+                <FullName>Sanitization Services</FullName>
+            </ItemRef>
+            <Desc>Using Hydrogen peroxide to wipe down surfaces that people touch on a regular basis</Desc>
+            <Quantity>3.0</Quantity>
+            <Rate>60.0</Rate>
+        </InvoiceLineAdd>
+        
+            </InvoiceAdd>
+        </InvoiceAddRq>
+    </QBXMLMsgsRq>
+</QBXML>

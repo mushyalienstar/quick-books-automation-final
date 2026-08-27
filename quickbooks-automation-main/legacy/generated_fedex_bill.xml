@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?qbxml version="13.0"?>
+<QBXML>
+    <QBXMLMsgsRq onError="stopOnError">
+        <BillAddRq>
+            <BillAdd>
+                <VendorRef>
+                    <FullName>FedEx</FullName>
+                </VendorRef>
+                <TxnDate>2026-07-16</TxnDate>
+                <RefNumber>2-738-32725</RefNumber>
+            <ExpenseLineAdd>
+                <AccountRef>
+                    <FullName>5230 Courier</FullName>
+                </AccountRef>
+                <Amount>-16.15</Amount>
+                <Memo>FedEx earned discount</Memo>
+                <SalesTaxCodeRef>
+                    <FullName>MB</FullName>
+                </SalesTaxCodeRef>
+            </ExpenseLineAdd>
+            <ExpenseLineAdd>
+                <AccountRef>
+                    <FullName>5230 Courier</FullName>
+                </AccountRef>
+                <Amount>-35.76</Amount>
+                <Memo>FedEx earned discount</Memo>
+                <SalesTaxCodeRef>
+                    <FullName>ON</FullName>
+                </SalesTaxCodeRef>
+            </ExpenseLineAdd>
+            <ItemLineAdd>
+                <ItemRef>
+                    <FullName>5230 Courier</FullName>
+                </ItemRef>
+                <Cost>117.01</Cost>
+                <Amount>117.01</Amount>
+                <SalesTaxCodeRef>
+                    <FullName>MB</FullName>
+                </SalesTaxCodeRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemLineAdd>
+            <ItemLineAdd>
+                <ItemRef>
+                    <FullName>5230 Courier</FullName>
+                </ItemRef>
+                <Cost>50.23</Cost>
+                <Amount>50.23</Amount>
+                <SalesTaxCodeRef>
+                    <FullName>ON</FullName>
+                </SalesTaxCodeRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemLineAdd>
+            <ItemLineAdd>
+                <ItemRef>
+                    <FullName>5230 Courier</FullName>
+                </ItemRef>
+                <Cost>78.97</Cost>
+                <Amount>78.97</Amount>
+                <SalesTaxCodeRef>
+                    <FullName>ON</FullName>
+                </SalesTaxCodeRef>
+                <BillableStatus>Billable</BillableStatus>
+            </ItemLineAdd>
+            </BillAdd>
+        </BillAddRq>
+    </QBXMLMsgsRq>
+</QBXML>

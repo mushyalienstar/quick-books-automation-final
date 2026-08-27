@@ -1,0 +1,19 @@
+Bill: FedEx  Ref 2-738-32725  Date 2026-07-16  Total CAD 211.48
+
+Items tab:
+  5230 Courier     117.01  MB  <unmatched: 2510177 TDL 122135 SPRIN>
+  5230 Courier      50.23  ON  <unmatched: 2412157 McD's Welland>
+  5230 Courier      78.97  ON  <unmatched: 2601245 McD Timmins>
+
+Expenses tab:
+  5230 Courier     -51.91  (earned discount)
+
+FLAG: Item "5230 Courier" is not in the QuickBooks Item list.
+FLAG: Account "5230 Courier" (discount Expenses-tab line) is not in the Chart of Accounts.
+FLAG: Sales tax code "MB" is not in the QuickBooks tax code list.
+FLAG: Sales tax code "ON" is not in the QuickBooks tax code list.
+FLAG: No customer:job in QuickBooks contains project 2510177 — shipment 874101811907 (ref: 2510177 TDL 122135 SPRIN).
+FLAG: No customer:job in QuickBooks contains project 2412157 — shipment 874125699962 (ref: 2412157 McD's Welland).
+FLAG: No customer:job in QuickBooks contains project 2601245 — shipment 874152031827 (ref: 2601245 McD Timmins).
+
+Bill NOT entered — fix the flags above in QuickBooks or the PDF, then re-drop the file (or use --force).
